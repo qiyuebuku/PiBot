@@ -1,0 +1,83 @@
+﻿生成启动时间为 2018/1/9 19:25:57。
+     1>项目“C:\Users\11946\Desktop\智能小车\QT\test3\test3.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing test3.h...
+         Uic'ing test3.ui...
+         Rcc'ing test3.qrc...
+     1>RCC : warning : No resources in 'C:\Users\11946\Desktop\鏅鸿兘灏忚溅\QT\test3\test3.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.0\5.5\msvc2012\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.0\5.5\msvc2012\include\QtCore /IC:\Qt\Qt5.5.0\5.5\msvc2012\include\QtGui /IC:\Qt\Qt5.5.0\5.5\msvc2012\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_test3.cpp main.cpp test3.cpp
+         moc_test3.cpp
+         main.cpp
+         test3.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.0\5.5\msvc2012\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.0\5.5\msvc2012\include\QtCore /IC:\Qt\Qt5.5.0\5.5\msvc2012\include\QtGui /IC:\Qt\Qt5.5.0\5.5\msvc2012\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_test3.cpp
+         qrc_test3.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\11946\Desktop\智能小车\QT\test3\Win32\Debug\\test3.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.0\5.5\msvc2012\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\11946\Desktop\智能小车\QT\test3\Win32\Debug\test3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\11946\Desktop\智能小车\QT\test3\Win32\Debug\test3.lib" /MACHINE:X86 /SAFESEH Debug\moc_test3.obj
+         Debug\qrc_test3.obj
+         Debug\main.obj
+         Debug\test3.obj
+     1>test3.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QTcpSocket::QTcpSocket(class QObject *)" (__imp_??0QTcpSocket@@QAE@PAVQObject@@@Z)，该符号在函数 "public: __thiscall test3::test3(class QWidget *)" (??0test3@@QAE@PAVQWidget@@@Z) 中被引用
+     1>test3.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QTcpSocket::~QTcpSocket(void)" (__imp_??1QTcpSocket@@UAE@XZ)，该符号在函数 "public: virtual void * __thiscall QTcpSocket::`scalar deleting destructor'(unsigned int)" (??_GQTcpSocket@@UAEPAXI@Z) 中被引用
+     1>test3.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: __thiscall QWebView::QWebView(class QWidget *)" (__imp_??0QWebView@@QAE@PAVQWidget@@@Z)，该符号在函数 "public: void __thiscall Ui_test3Class::setupUi(class QMainWindow *)" (?setupUi@Ui_test3Class@@QAEXPAVQMainWindow@@@Z) 中被引用
+     1>test3.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: virtual __thiscall QWebView::~QWebView(void)" (__imp_??1QWebView@@UAE@XZ)，该符号在函数 "public: virtual void * __thiscall QWebView::`scalar deleting destructor'(unsigned int)" (??_GQWebView@@UAEPAXI@Z) 中被引用
+     1>test3.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: void __thiscall QWebView::setUrl(class QUrl const &)" (__imp_?setUrl@QWebView@@QAEXABVQUrl@@@Z)，该符号在函数 "public: void __thiscall test3::flashPic(void)" (?flashPic@test3@@QAEXXZ) 中被引用
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QAbstractSocket::atEnd(void)const " (?atEnd@QAbstractSocket@@UBE_NXZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QAbstractSocket::bytesAvailable(void)const " (?bytesAvailable@QAbstractSocket@@UBE_JXZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual __int64 __thiscall QAbstractSocket::bytesToWrite(void)const " (?bytesToWrite@QAbstractSocket@@UBE_JXZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QAbstractSocket::canReadLine(void)const " (?canReadLine@QAbstractSocket@@UBE_NXZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::changeEvent(class QEvent *)" (?changeEvent@QWebView@@MAEXPAVQEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractSocket::close(void)" (?close@QAbstractSocket@@UAEXXZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractSocket::connectToHost(class QHostAddress const &,unsigned short,class QFlags<enum QIODevice::OpenModeFlag>)" (?connectToHost@QAbstractSocket@@UAEXABVQHostAddress@@GV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractSocket::connectToHost(class QString const &,unsigned short,class QFlags<enum QIODevice::OpenModeFlag>,enum QAbstractSocket::NetworkLayerProtocol)" (?connectToHost@QAbstractSocket@@UAEXABVQString@@GV?$QFlags@W4OpenModeFlag@QIODevice@@@@W4NetworkLayerProtocol@1@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::contextMenuEvent(class QContextMenuEvent *)" (?contextMenuEvent@QWebView@@MAEXPAVQContextMenuEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class QWebView * __thiscall QWebView::createWindow(enum QWebPage::WebWindowType)" (?createWindow@QWebView@@MAEPAV1@W4WebWindowType@QWebPage@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractSocket::disconnectFromHost(void)" (?disconnectFromHost@QAbstractSocket@@UAEXXZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::dragEnterEvent(class QDragEnterEvent *)" (?dragEnterEvent@QWebView@@MAEXPAVQDragEnterEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::dragLeaveEvent(class QDragLeaveEvent *)" (?dragLeaveEvent@QWebView@@MAEXPAVQDragLeaveEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::dragMoveEvent(class QDragMoveEvent *)" (?dragMoveEvent@QWebView@@MAEXPAVQDragMoveEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::dropEvent(class QDropEvent *)" (?dropEvent@QWebView@@MAEXPAVQDropEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QWebView::event(class QEvent *)" (?event@QWebView@@UAE_NPAVQEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::focusInEvent(class QFocusEvent *)" (?focusInEvent@QWebView@@MAEXPAVQFocusEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual bool __thiscall QWebView::focusNextPrevChild(bool)" (?focusNextPrevChild@QWebView@@MAE_N_N@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::focusOutEvent(class QFocusEvent *)" (?focusOutEvent@QWebView@@MAEXPAVQFocusEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::inputMethodEvent(class QInputMethodEvent *)" (?inputMethodEvent@QWebView@@MAEXPAVQInputMethodEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __thiscall QWebView::inputMethodQuery(enum Qt::InputMethodQuery)const " (?inputMethodQuery@QWebView@@UBE?AVQVariant@@W4InputMethodQuery@Qt@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QAbstractSocket::isSequential(void)const " (?isSequential@QAbstractSocket@@UBE_NXZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::keyPressEvent(class QKeyEvent *)" (?keyPressEvent@QWebView@@MAEXPAVQKeyEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::keyReleaseEvent(class QKeyEvent *)" (?keyReleaseEvent@QWebView@@MAEXPAVQKeyEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QTcpSocket::metaObject(void)const " (?metaObject@QTcpSocket@@UBEPBUQMetaObject@@XZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual struct QMetaObject const * __thiscall QWebView::metaObject(void)const " (?metaObject@QWebView@@UBEPBUQMetaObject@@XZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::mouseDoubleClickEvent(class QMouseEvent *)" (?mouseDoubleClickEvent@QWebView@@MAEXPAVQMouseEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::mouseMoveEvent(class QMouseEvent *)" (?mouseMoveEvent@QWebView@@MAEXPAVQMouseEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::mousePressEvent(class QMouseEvent *)" (?mousePressEvent@QWebView@@MAEXPAVQMouseEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::mouseReleaseEvent(class QMouseEvent *)" (?mouseReleaseEvent@QWebView@@MAEXPAVQMouseEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::paintEvent(class QPaintEvent *)" (?paintEvent@QWebView@@MAEXPAVQPaintEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QTcpSocket::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QTcpSocket@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QWebView::qt_metacall(enum QMetaObject::Call,int,void * *)" (?qt_metacall@QWebView@@UAEHW4Call@QMetaObject@@HPAPAX@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QTcpSocket::qt_metacast(char const *)" (?qt_metacast@QTcpSocket@@UAEPAXPBD@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall QWebView::qt_metacast(char const *)" (?qt_metacast@QWebView@@UAEPAXPBD@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __thiscall QAbstractSocket::readData(char *,__int64)" (?readData@QAbstractSocket@@MAE_JPAD_J@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __thiscall QAbstractSocket::readLineData(char *,__int64)" (?readLineData@QAbstractSocket@@MAE_JPAD_J@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::resizeEvent(class QResizeEvent *)" (?resizeEvent@QWebView@@MAEXPAVQResizeEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractSocket::resume(void)" (?resume@QAbstractSocket@@UAEXXZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractSocket::setReadBufferSize(__int64)" (?setReadBufferSize@QAbstractSocket@@UAEX_J@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QAbstractSocket::setSocketDescriptor(int,enum QAbstractSocket::SocketState,class QFlags<enum QIODevice::OpenModeFlag>)" (?setSocketDescriptor@QAbstractSocket@@UAE_NHW4SocketState@1@V?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall QAbstractSocket::setSocketOption(enum QAbstractSocket::SocketOption,class QVariant const &)" (?setSocketOption@QAbstractSocket@@UAEXW4SocketOption@1@ABVQVariant@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QSize __thiscall QWebView::sizeHint(void)const " (?sizeHint@QWebView@@UBE?AVQSize@@XZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall QAbstractSocket::socketDescriptor(void)const " (?socketDescriptor@QAbstractSocket@@UBEHXZ)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual class QVariant __thiscall QAbstractSocket::socketOption(enum QAbstractSocket::SocketOption)" (?socketOption@QAbstractSocket@@UAE?AVQVariant@@W4SocketOption@1@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QAbstractSocket::waitForBytesWritten(int)" (?waitForBytesWritten@QAbstractSocket@@UAE_NH@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QAbstractSocket::waitForConnected(int)" (?waitForConnected@QAbstractSocket@@UAE_NH@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QAbstractSocket::waitForDisconnected(int)" (?waitForDisconnected@QAbstractSocket@@UAE_NH@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall QAbstractSocket::waitForReadyRead(int)" (?waitForReadyRead@QAbstractSocket@@UAE_NH@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual void __thiscall QWebView::wheelEvent(class QWheelEvent *)" (?wheelEvent@QWebView@@MAEXPAVQWheelEvent@@@Z)
+     1>test3.obj : error LNK2001: 无法解析的外部符号 "protected: virtual __int64 __thiscall QAbstractSocket::writeData(char const *,__int64)" (?writeData@QAbstractSocket@@MAE_JPBD_J@Z)
+     1>C:\Users\11946\Desktop\智能小车\QT\test3\Win32\Debug\\test3.exe : fatal error LNK1120: 56 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\11946\Desktop\智能小车\QT\test3\test3.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.17
